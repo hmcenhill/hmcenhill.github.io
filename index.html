@@ -1,1 +1,414 @@
-<p>Hello World</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>herm.in</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-auto">
+                <div class="h3"><strong><u>herm</u>ann <u>in</u>gi mcenhill</strong></div>
+                <div class="h4"><em>i like to build cool things</em></div>
+                <nav class="navbar navbar-expand navbar-light">
+                    <div class="container-fluid">
+                        <div class="" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2">
+                                <li class="nav-item">
+                                    <a class="nav-link active h5" data-bs-toggle="modal" data-bs-target="#aboutMeModal"
+                                        href="#about">
+                                        about me
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active h5" data-bs-toggle="collapse" href="#myprojects"
+                                        role="button" aria-expanded="false" aria-controls="myprojects">
+                                        my projects
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active h5" data-bs-toggle="modal" data-bs-target="#cvModal"
+                                        href="#cv">
+                                        CV
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <main>
+
+            <div class="modal fade" id="aboutMeModal" tabindex="-1" aria-labelledby="aboutMeModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="aboutMeModalLabel">about me</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row"></div>
+                            <div class="row">
+                                <div class="col">
+                                    <p>info about me</p>
+                                </div>
+                                <div class="col">
+                                    <div class="card" style="width: 100%;">
+                                        <img src="HIM_about.jpg" class="card-img-top" alt="Image of hermann in Iceland">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-primary" data-bs-target="#contactModal"
+                                data-bs-toggle="modal">Contact</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="contactModal" aria-hidden="true" aria-labelledby="contactModal" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="contactModal">Contact</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div> email: <em>hmcenhill</em> at gmail</div>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-primary" data-bs-target="#aboutMeModal" data-bs-toggle="modal">Back
+                                to About</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="collapse" id="myprojects">
+                <div class="card card-body border-0 border-top">
+                    hey there's projects here....eventually
+                </div>
+            </div>
+
+            <div class="modal fade" id="cvModal" tabindex="-1" aria-labelledby="cvModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title" id="cvModalLabel">Hermann Ingi McEnhill</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="accordion" id="cvAccordion">
+                                <div>
+                                    <h4>Experience</h4>
+                                    <div class="accordion-item">
+                                        <div class="accordion-header" id="jobHeadingOne">
+                                            <div class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                aria-expanded="false" aria-controls="collapseOne">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-9">
+                                                            <strong>
+                                                                Co-Founder & Lead Programmer
+                                                            </strong>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            October 2020 - Present
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            Unnamed Video Game Studio Startup - Self-Employed
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="collapseOne" class="accordion-collapse collapse"
+                                                aria-labelledby="jobHeadingOne" data-bs-parent="#cvAccordion">
+                                                <div class="accordion-body">
+                                                    <div>
+                                                        • Responsible for core architecture and systems implementation
+                                                        and
+                                                        integration.
+                                                    </div>
+                                                    <div>
+                                                        • One of a two-person team.
+                                                    </div>
+                                                    <div>
+                                                        • Successfully funded by investors.
+                                                    </div>
+                                                    <div>
+                                                        • Key Features:
+                                                        <div class="px-5">
+                                                            • Extensive inventory and crafting system.
+                                                        </div>
+                                                        <div class="px-5">
+                                                            • Dynamic and responsive combat system with detailed
+                                                            swordplay
+                                                            mechanics.
+                                                        </div>
+                                                        <div class="px-5">
+                                                            • State-driven NPC AI which drove combat and organic idle
+                                                            behavior.
+                                                        </div>
+                                                        <div class="px-5">
+                                                            • Procedurally generated maze-like dungeons.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <div class="accordion-header" id="jobHeadingTwo">
+                                            <div class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-9">
+                                                            <strong>
+                                                                Associate Software Engineer
+                                                            </strong>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            October 2019 - October 2020
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            Quicken Loans (now Rocket Mortgage)
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="jobHeadingTwo" data-bs-parent="#cvAccordion">
+                                            <div class="accordion-body">
+                                                <div>
+                                                    • Develop backend functionality for the mortgage approval process.
+                                                    Serving up mortgage options and relevant approval requirements.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <div class="accordion-header" id="jobHeadingThree">
+                                            <div class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                aria-expanded="false" aria-controls="collapseThree">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-9">
+                                                            <strong>
+                                                                Product Configuration Analyst / Material Planner
+                                                            </strong>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            December 2016 - October 2019
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            Roush Industries
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            aria-labelledby="jobHeadingThree" data-bs-parent="#cvAccordion">
+                                            <div class="accordion-body">
+                                                <div>
+                                                    • Create and maintain production schedule including entering sales
+                                                    orders, forecasts, or direct production orders, as applicable using
+                                                    the PeopleSoft ERP system.
+                                                </div>
+                                                <div>
+                                                    • Resolve material violations and release feasible production plans.
+                                                </div>
+                                                <div>
+                                                    • Create production documents (PIDs) and follow through the
+                                                    production
+                                                    process.
+                                                </div>
+                                                <div>
+                                                    • Analyze production process with Operations, Manufacturing
+                                                    Engineering,
+                                                    and other cross functional groups to optimize schedule and material
+                                                    flow.
+                                                </div>
+                                                <div>
+                                                    • Participate / run production and Change Control [Order] (CCO)
+                                                    meetings, report on shortages/violations, other issues that impact
+                                                    the
+                                                    plan, work cross-functionally. to resolve and maintain the schedule
+                                                    and
+                                                    update staff about upcoming changes.
+                                                </div>
+                                                <div>
+                                                    • Release or coordinate with purchasing to release material
+                                                    requisitions.
+                                                </div>
+                                                <div>
+                                                    • Coordinate with purchasing to track material from supplier to shop
+                                                    floor.
+                                                </div>
+                                                <div>
+                                                    • Effectively manage material and production requirement changes
+                                                    resulting from Engineering Change Notifications.
+                                                </div>
+                                                <div>
+                                                    • Generate and distribute pick batches to supply production with
+                                                    materials.
+                                                </div>
+                                                <div>
+                                                    • Identify potential shortages and work with appropriate departments
+                                                    to
+                                                    resolve.
+                                                </div>
+                                                <div>
+                                                    • Work with all departments to coordinate and ensure efficient
+                                                    implementation and closure of all CCO’s.
+                                                </div>
+                                                <div>
+                                                    • Manage running changes to maximize efficiency when exhausting
+                                                    products.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="py-5">
+                                    <h4>Education</h4>
+                                    <div class="accordion-item">
+                                        <div class="accordion-header" id="educationHeadingOne">
+                                            <div class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseEducationOne"
+                                                aria-expanded="false" aria-controls="collapseEducationOne">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-9">
+                                                            <strong>
+                                                                University of Michigan College of Engineering
+                                                            </strong>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            2002 - 2003
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            Master of Science - Mechanical Engineering
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="collapseEducationOne" class="accordion-collapse collapse"
+                                                aria-labelledby="educationHeadingOne" data-bs-parent="#cvAccordion">
+                                                <div class="accordion-body">
+                                                    <div>
+                                                        • Activities and societies: Society of Automotive Engineers
+                                                        (SAE), Order of the EngineerActivities and societies: Society of
+                                                        Automotive Engineers (SAE), Order of the Engineer
+                                                    </div>
+                                                    <div>
+                                                        • Concentrated studies in controls, thermodynamics and engines.
+                                                    </div>
+                                                    <div>
+                                                        • Related studies in design for environment, design and
+                                                        manufacturing, statistical process control, heat transfer, fluid
+                                                        dynamics, materials, statics, dynamics and vibrations.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div>
+                                    <h4>Curios</h4>
+                                    <div class="accordion-item">
+                                        <div class="accordion-header" id="curiosHeadingOne">
+                                            <div class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseCurioOne"
+                                                aria-expanded="false" aria-controls="collapseCurioOne">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-9">
+                                                            <strong>
+                                                                Author
+                                                            </strong>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            January 2011 - Forever
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            Self-Employed
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="collapseCurioOne" class="accordion-collapse collapse"
+                                                aria-labelledby="curiosHeadingOne" data-bs-parent="#cvAccordion">
+                                                <div class="accordion-body">
+                                                    <div>
+                                                        • Completed draft of a 400-page novel set in an original
+                                                        tech-fantasy world of magic and machinery.
+                                                    </div>
+                                                    <div>
+                                                        • At least three sequels planned.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal-footer">
+                            <a type="button" class="btn btn-primary"
+                                href="https://www.linkedin.com/in/hermann-mcenhill/" target="_blank">LinkedIn</a>
+                            <a type="button" class="btn btn-danger" href="https://github.com/hmcenhill"
+                                target="_blank">Github</a>
+                            <a type="button" class="btn btn-primary" href="Hermann_McEnhill_Resume_2022.pdf"
+                                target="_blank">Open Resume as PDF</a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>

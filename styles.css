@@ -1,0 +1,21 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-item{
+    width: 150px;
+    text-align: center;
+}
+
+.nav-item::after{
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: #7a7a7a;
+    transition: 0.4s
+}
+
+.nav-item:hover::after {
+    width: 100%
+}
