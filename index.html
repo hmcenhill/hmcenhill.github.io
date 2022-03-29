@@ -22,7 +22,9 @@
         <div class="row">
             <div class="col"></div>
             <div class="col">
-                <img src="HermKeyboard.png" alt="" style="width: 100%;">
+                <div class="row justify-content-center">
+                    <img src="HermKeyboard.png" alt="" style="width: 400px; justify-content: center;">
+                </div>
                 <div class="h3"><strong><u>herm</u>ann <u>in</u>gi mcenhill</strong></div>
                 <div class="h4" style="text-align: right;"><em>i like to build cool things</em></div>
                 <nav class="navbar navbar-expand navbar-light">
@@ -35,16 +37,31 @@
                                         about me
                                     </a>
                                 </li>
-                                <!-- <li class="nav-item">
-                                    <a class="nav-link active h5" data-bs-toggle="modal"
-                                        data-bs-target="#myprojectsModal" href="#myprojects">
+                                <li class="nav-item">
+                                    <a class="nav-link active h5" data-bs-toggle="collapse" href="#myprojectsCollapse"
+                                        aria-expanded="false" aria-controls="myprojectsCollapse">
                                         my projects
                                     </a>
-                                </li> -->
+                                    <!-- <a class="" data-bs-toggle="modal" data-bs-target="#myprojectsModal"
+                                        href="#myprojects">
+                                        my projects
+                                    </a> -->
+                                </li>
                                 <li class="nav-item">
                                     <a class="nav-link active h5" data-bs-toggle="modal" data-bs-target="#cvModal"
                                         href="#cv">
                                         CV
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active h5" href="Hermann_McEnhill_Resume.pdf" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-printer" viewBox="0 0 16 16">
+                                            <path d="M2.5 8a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z" />
+                                            <path
+                                                d="M5 1a2 2 0 0 0-2 2v2H2a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h1v1a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-1h1a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1V3a2 2 0 0 0-2-2H5zM4 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2H4V3zm1 5a2 2 0 0 0-2 2v1H2a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v-1a2 2 0 0 0-2-2H5zm7 2v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1z" />
+                                        </svg>
+                                        Resume
                                     </a>
                                 </li>
                             </ul>
@@ -97,8 +114,12 @@
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button class="btn btn-primary" data-bs-target="#contactModal"
-                                data-bs-toggle="modal">Contact</button>
+                            <!-- <button class="btn btn-primary" data-bs-target="#contactModal"
+                                data-bs-toggle="modal">Contact</button> -->
+                            <a type="button" class="btn btn-primary"
+                                href="https://www.linkedin.com/in/hermann-mcenhill/" target="_blank">
+                                LinkedIn
+                            </a>
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
@@ -123,7 +144,7 @@
                 </div>
             </div>
 
-            <div class="modal fade" id="myprojectsModal" tabindex="-1" aria-labelledby="myprojectsModalLabel"
+            <!-- <div class="modal fade" id="myprojectsModal" tabindex="-1" aria-labelledby="myprojectsModalLabel"
                 aria-hidden="true">
                 <div class="modal-dialog modal-xl">
                     <div class="modal-content">
@@ -147,7 +168,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <div class="modal fade" id="cvModal" tabindex="-1" aria-labelledby="cvModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-xl">
@@ -820,7 +841,7 @@
                                 href="https://www.linkedin.com/in/hermann-mcenhill/" target="_blank">LinkedIn</a>
                             <a type="button" class="btn btn-danger" href="https://github.com/hmcenhill"
                                 target="_blank">Github</a>
-                            <a type="button" class="btn btn-primary" href="Hermann_McEnhill_Resume_2022.pdf"
+                            <a type="button" class="btn btn-primary" href="Hermann_McEnhill_Resume.pdf"
                                 target="_blank">Open
                                 Resume as PDF</a>
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -828,6 +849,15 @@
                     </div>
                 </div>
             </div>
+
+            <div class="collapse" id="myprojectsCollapse">
+                <div class="card card-body">
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                        <a type="button" class="btn btn-danger" href="https://github.com/hmcenhill/EscalatingMatch"                        target="_blank">Memory Match (Unity)</a>
+                      </div>
+                </div>
+            </div>
+
     </div>
 
     </main>
