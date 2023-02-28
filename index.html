@@ -1,150 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>herm.in</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300&display=swap"
-        rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="container pt-5">
-        <div class="row">
-            <div class="col"></div>
-            <div class="col">
-                <div class="row justify-content-center">
-                    <img src="HermKeyboard.png" alt="" style="width: 400px; justify-content: center;">
-                </div>
-                <div class="h3"><strong><u>herm</u>ann <u>in</u>gi mcenhill</strong></div>
-                <div class="h4" style="text-align: right;"><em>i like to build cool things</em></div>
-                <nav class="navbar navbar-expand navbar-light">
-                    <div class="container-fluid justify-content-center">
-                        <div class="" id="navbarSupportedContent">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link active h5" data-bs-toggle="modal" data-bs-target="#aboutMeModal"
-                                        href="#about">
-                                        about me
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active h5" data-bs-toggle="collapse" href="#myprojectsCollapse"
-                                        aria-expanded="false" aria-controls="myprojectsCollapse">
-                                        my projects
-                                    </a>
-                                    <!-- <a class="" data-bs-toggle="modal" data-bs-target="#myprojectsModal"
+      <div class="row">
+        <div class="col"></div>
+        <div class="col">
+          <div class="row justify-content-center">
+            <img
+              src="HermKeyboard.png"
+              alt=""
+              style="width: 400px; justify-content: center"
+            />
+          </div>
+          <div class="h3">
+            <strong><u>herm</u>ann <u>in</u>gi mcenhill</strong>
+          </div>
+          <div class="h4" style="text-align: right">
+            <em>i like to build cool things</em>
+          </div>
+          <nav class="navbar navbar-expand navbar-light">
+            <div class="container-fluid justify-content-center">
+              <div class="" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active h5"
+                      data-bs-toggle="modal"
+                      data-bs-target="#aboutMeModal"
+                      href="#about"
+                    >
+                      about me
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active h5"
+                      data-bs-toggle="collapse"
+                      href="#myprojectsCollapse"
+                      aria-expanded="false"
+                      aria-controls="myprojectsCollapse"
+                    >
+                      my projects
+                    </a>
+                    <!-- <a class="" data-bs-toggle="modal" data-bs-target="#myprojectsModal"
                                         href="#myprojects">
                                         my projects
                                     </a> -->
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active h5" data-bs-toggle="modal" data-bs-target="#cvModal"
-                                        href="#cv">
-                                        CV
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active h5" href="Hermann_McEnhill_Resume.pdf" target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            fill="currentColor" class="bi bi-printer" viewBox="0 0 16 16">
-                                            <path d="M2.5 8a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z" />
-                                            <path
-                                                d="M5 1a2 2 0 0 0-2 2v2H2a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h1v1a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-1h1a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1V3a2 2 0 0 0-2-2H5zM4 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2H4V3zm1 5a2 2 0 0 0-2 2v1H2a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v-1a2 2 0 0 0-2-2H5zm7 2v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1z" />
-                                        </svg>
-                                        Resume
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active h5"
+                      data-bs-toggle="modal"
+                      data-bs-target="#cvModal"
+                      href="#cv"
+                    >
+                      CV
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active h5"
+                      href="Hermann_McEnhill_Resume.pdf"
+                      target="_blank"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-printer"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M2.5 8a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z" />
+                        <path
+                          d="M5 1a2 2 0 0 0-2 2v2H2a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h1v1a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-1h1a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1V3a2 2 0 0 0-2-2H5zM4 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2H4V3zm1 5a2 2 0 0 0-2 2v1H2a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v-1a2 2 0 0 0-2-2H5zm7 2v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1z"
+                        />
+                      </svg>
+                      Resume
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="col"></div>
+          </nav>
+        </div>
+        <div class="col"></div>
+      </div>
+
+      <main>
+        <div
+          class="modal fade"
+          id="aboutMeModal"
+          tabindex="-1"
+          aria-labelledby="aboutMeModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="aboutMeModalLabel">about me</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <div class="row"></div>
+                <div class="row">
+                  <div class="col">
+                    <p>
+                      Hermann is a versatile software engineer and Unity
+                      developer with a Master's Degree in Mechanical
+                      Engineering. He has a passion for game design theory and
+                      product development and has pursued a career that allows
+                      him to combine his technical expertise with his creative
+                      pursuits. Hermann has been working in software development
+                      since 2019, with experience in gaming, fin-tech, and
+                      general software consulting.
+                    </p>
+                    <p>
+                      Prior to his career in software engineering, Hermann held
+                      engineering and project management roles in the automotive
+                      industry, utilizing his academic background. He also
+                      engaged in a number of entrepreneurial endeavors,
+                      including authoring a novel and building a small brewery.
+                      These experiences have helped him develop a unique
+                      perspective and a broad range of skills.
+                    </p>
+                    <p>
+                      In his free time, Hermann enjoys spending time with his
+                      wife and visiting family in Iceland. He is also an avid
+                      gamer, enjoying both tabletop and video games, and he
+                      plays the piano as a source of inspiration for his work.
+                      Hermann's creativity and passion for gaming and software
+                      development have led him to pursue a career in the gaming
+                      industry. He is recognized for his technical excellence,
+                      innovation, and user-centered design, and his unique
+                      vision of game design and theory along with boundless
+                      creativity poise him to make an impact in his field.
+                    </p>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="card" style="width: 100%">
+                      <img
+                        src="HIM_about.jpg"
+                        class="card-img-top"
+                        alt="Image of hermann in Iceland"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <!-- <button class="btn btn-primary" data-bs-target="#contactModal"
+                                data-bs-toggle="modal">Contact</button> -->
+                <a
+                  type="button"
+                  class="btn btn-primary"
+                  href="https://www.linkedin.com/in/hermann-mcenhill/"
+                  target="_blank"
+                >
+                  LinkedIn
+                </a>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <main>
-
-            <div class="modal fade" id="aboutMeModal" tabindex="-1" aria-labelledby="aboutMeModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog modal-xl">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="aboutMeModalLabel">about me</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="row"></div>
-                            <div class="row">
-                                <div class="col">
-                                    <p>I am a software engineer and unity developer. I seek to bring innovative
-                                        solutions to projects and have committed to constantly improving my critical
-                                        thinking and communication skills. I am a skilled communicator and particularly
-                                        talented at translating technical concepts into accessible language for
-                                        effective collaboration.
-                                    </p>
-                                    <p>
-                                        Most recently I was fortunate to have the opportunity to serve as Lead
-                                        Programmer and Architect for an independent video game studio startup. I am very
-                                        proud of the work I was able to accomplish during my time with the studio, and
-                                        am confident that the framework I have laid will be a strong foundation to
-                                        build upon for an eventual release.
-                                    </p>
-                                    <p>
-                                        Previously, I was an associate software developer where I had the opportunity to
-                                        hone the coding skills I learned at a coding academy while contributing to
-                                        several projects where I received recognition for thorough and rapid work beyond
-                                        my brief experience in the industry.
-                                    </p>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="card" style="width: 100%;">
-                                        <img src="HIM_about.jpg" class="card-img-top" alt="Image of hermann in Iceland">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <!-- <button class="btn btn-primary" data-bs-target="#contactModal"
-                                data-bs-toggle="modal">Contact</button> -->
-                            <a type="button" class="btn btn-primary"
-                                href="https://www.linkedin.com/in/hermann-mcenhill/" target="_blank">
-                                LinkedIn
-                            </a>
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
+        <div
+          class="modal fade"
+          id="contactModal"
+          aria-hidden="true"
+          aria-labelledby="contactModal"
+          tabindex="-1"
+        >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="contactModal">Contact</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <div>email: <em>hmcenhill</em> at gmail</div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  class="btn btn-primary"
+                  data-bs-target="#aboutMeModal"
+                  data-bs-toggle="modal"
+                >
+                  Back to About
+                </button>
+              </div>
             </div>
+          </div>
+        </div>
 
-            <div class="modal fade" id="contactModal" aria-hidden="true" aria-labelledby="contactModal" tabindex="-1">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="contactModal">Contact</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div> email: <em>hmcenhill</em> at gmail</div>
-                        </div>
-                        <div class="modal-footer">
-                            <button class="btn btn-primary" data-bs-target="#aboutMeModal" data-bs-toggle="modal">Back
-                                to About</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- <div class="modal fade" id="myprojectsModal" tabindex="-1" aria-labelledby="myprojectsModalLabel"
+        <!-- <div class="modal fade" id="myprojectsModal" tabindex="-1" aria-labelledby="myprojectsModalLabel"
                 aria-hidden="true">
                 <div class="modal-dialog modal-xl">
                     <div class="modal-content">
@@ -170,703 +258,972 @@
                 </div>
             </div> -->
 
-            <div class="modal fade" id="cvModal" tabindex="-1" aria-labelledby="cvModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-xl">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h3 class="modal-title" id="cvModalLabel">Hermann Ingi McEnhill</h3>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="accordion" id="cvAccordion">
-                                <div class="pt-2 pb-4">
-                                    <h4>Experience</h4>
-                                    <div class="accordion-item">
-                                        <div class="accordion-header" id="jobHeadingOne">
-                                            <div class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                aria-expanded="false" aria-controls="collapseOne">
-                                                <div class="container">
-                                                    <div class="row">
-                                                        <div class="col-9">
-                                                            <strong>
-                                                                Co-Founder & Lead Programmer
-                                                            </strong>
-                                                        </div>
-                                                        <div class="col-3">
-                                                            October 2020 - Present
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col">
-                                                            Unnamed Video Game Studio Startup
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div id="collapseOne" class="accordion-collapse collapse"
-                                                aria-labelledby="jobHeadingOne" data-bs-parent="#cvAccordion">
-                                                <div class="accordion-body">
-                                                    <ul>
-                                                        <li>
-                                                            Technology: Unity 2020.3+, C#
-                                                        </li>
-                                                        <li>
-                                                            Responsible for core architecture and systems implementation
-                                                            and integration.
-                                                        </li>
-                                                        <li>
-                                                            One of a two-person team.
-
-                                                        </li>
-                                                        <li>
-                                                            Successfully funded by investors.
-
-                                                        </li>
-                                                        <li>
-                                                            Key Features:
-                                                            <ul>
-                                                                <li>
-                                                                    Extensive inventory and crafting system.
-                                                                </li>
-                                                                <li>
-                                                                    Dynamic and responsive combat system with detailed
-                                                                    swordplay mechanics.
-                                                                </li>
-                                                                <li>
-                                                                    State-driven NPC AI which drove combat and organic
-                                                                    idle behavior.
-                                                                </li>
-                                                                <li>
-                                                                    Procedurally generated maze-like dungeons.
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <div class="accordion-header" id="jobHeadingTwo">
-                                            <div class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                aria-expanded="false" aria-controls="collapseTwo">
-                                                <div class="container">
-                                                    <div class="row">
-                                                        <div class="col-9">
-                                                            <strong>
-                                                                Associate Software Engineer
-                                                            </strong>
-                                                        </div>
-                                                        <div class="col-3">
-                                                            October 2019 - October 2020
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col">
-                                                            Quicken Loans (now Rocket Mortgage)
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div id="collapseTwo" class="accordion-collapse collapse"
-                                            aria-labelledby="jobHeadingTwo" data-bs-parent="#cvAccordion">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li>
-                                                        Technology: C# (.NET), JavaScript (Angular), Python
-                                                    </li>
-                                                    <li>
-                                                        Develop API functionality for the mortgage approval process.
-                                                        Serving up mortgage options and relevant approval requirements
-                                                        based on provided and historical client information.
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <div class="accordion-header" id="jobHeadingThree">
-                                            <div class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                                aria-expanded="false" aria-controls="collapseThree">
-                                                <div class="container">
-                                                    <div class="row">
-                                                        <div class="col-9">
-                                                            <strong>
-                                                                Product Configuration Analyst / Material Planner
-                                                            </strong>
-                                                        </div>
-                                                        <div class="col-3">
-                                                            December 2016 - October 2019
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col">
-                                                            Roush Industries
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div id="collapseThree" class="accordion-collapse collapse"
-                                            aria-labelledby="jobHeadingThree" data-bs-parent="#cvAccordion">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li>
-                                                        Create and maintain production schedule including entering sales
-                                                        orders, forecasts, or direct production orders, as applicable
-                                                        using
-                                                        the PeopleSoft ERP system.
-                                                    </li>
-                                                    <li>
-                                                        Resolve material violations and release feasible production
-                                                        plans.
-                                                    </li>
-                                                    <li>
-                                                        Create production documents (PIDs) and follow through the
-                                                        production process.
-                                                    </li>
-                                                    <li>
-                                                        Analyze production process with Operations, Manufacturing
-                                                        Engineering, and other cross functional groups to optimize
-                                                        schedule
-                                                        and material flow.
-                                                    </li>
-                                                    <li>
-                                                        Participate / run production and Change Control [Order] (CCO)
-                                                        meetings, report on shortages/violations, other issues that
-                                                        impact
-                                                        the
-                                                        plan, work cross-functionally. to resolve and maintain the
-                                                        schedule
-                                                        and
-                                                        update staff about upcoming changes.
-                                                    </li>
-                                                    <li>
-                                                        Release or coordinate with purchasing to release material
-                                                        requisitions.
-                                                    </li>
-                                                    <li>
-                                                        Coordinate with purchasing to track material from supplier to
-                                                        shop
-                                                        floor.
-                                                    </li>
-                                                    <li>
-                                                        Effectively manage material and production requirement changes
-                                                        resulting from Engineering Change Notifications.
-                                                    </li>
-                                                    <li>
-                                                        Generate and distribute pick batches to supply production with
-                                                        materials.
-                                                    </li>
-                                                    <li>
-                                                        Identify potential shortages and work with appropriate
-                                                        departments
-                                                        to
-                                                        resolve.
-                                                    </li>
-                                                    <li>
-                                                        Work with all departments to coordinate and ensure efficient
-                                                        implementation and closure of all CCO’s.
-                                                    </li>
-                                                    <li>
-                                                        Manage running changes to maximize efficiency when exhausting
-                                                        products.
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <div class="accordion-header" id="jobHeadingFour">
-                                            <div class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                                aria-expanded="false" aria-controls="collapseFour">
-                                                <div class="container">
-                                                    <div class="row">
-                                                        <div class="col-9">
-                                                            <strong>
-                                                                Functional Consultant / Functional Lead
-                                                            </strong>
-                                                        </div>
-                                                        <div class="col-3">
-                                                            October 2007 - December 2010
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col">
-                                                            SAP & Independent
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div id="collapseFour" class="accordion-collapse collapse"
-                                            aria-labelledby="jobHeadingFour" data-bs-parent="#cvAccordion">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li>Technology: SAP-propietary Enterprise solution</li>
-                                                    <li>Certified in Sales and Distribution module (2008)</li>
-                                                    <li>
-                                                        Major Project: Functional lead - Houston-base Utilities Company
-                                                        <ul>
-                                                            <li>Implemented the Sales and Distribution module as part of
-                                                                a larger, enterprise software upgrade.</li>
-                                                            <li>Designed and configured the system for subscription and
-                                                                discrete sales.</li>
-                                                            <li>Regularly met with cross-functional team and clients to
-                                                                review state of project.</li>
-                                                            <li>Worked with the team to incorporate the new
-                                                                functionality seamlessly into existing forms and
-                                                                procedures.</li>
-                                                            <li>Project completed successfully and ahead of schedule.
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li>
-                                                        Major Project: Functional Lead - Denver-based Utilities Company
-                                                        <ul>
-                                                            <li>Implemented the Sales and Distribution module as the
-                                                                functional lead and the Plant Maintenance module as a
-                                                                functional consultant team member.</li>
-                                                            <li>Full life-cycle implementation including client
-                                                                interviews for project scope and requirements, complete
-                                                                configuration and custom code description, and
-                                                                culminating in a final, “big bang” legacy system shut
-                                                                down and SAP “go-live”.</li>
-                                                            <li>Trained client-side employees to manage, maintain, and
-                                                                improve the installation going forward.</li>
-                                                        </ul>
-                                                    </li>
-                                                    <li>
-                                                        Other short-term projects:
-                                                        <ul>
-                                                            <li>Duration varied from a few days to a few weeks.</li>
-                                                            <li>Developed proposals. Met with clients to collect
-                                                                requirements and determine time to complete as part of
-                                                                the quotation process.</li>
-                                                            <li>Support, troubleshooting, bug repairs and client
-                                                                training.</li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <div class="accordion-header" id="jobHeadingFive">
-                                            <div class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseFive"
-                                                aria-expanded="false" aria-controls="collapseFive">
-                                                <div class="container">
-                                                    <div class="row">
-                                                        <div class="col-9">
-                                                            <strong>
-                                                                Project Engineer / Project Coordinator
-                                                            </strong>
-                                                        </div>
-                                                        <div class="col-3">
-                                                            July 2005 - October 2007
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col">
-                                                            Roush Industries
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div id="collapseFive" class="accordion-collapse collapse"
-                                            aria-labelledby="jobHeadingFive" data-bs-parent="#cvAccordion">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li>
-                                                        Project Coordinator
-                                                        <ul>
-                                                            <li>Managed projects with a combined value of $6M.</li>
-                                                            <li>Clients included familiar OEM companies based out of the
-                                                                United States, Germany, and Japan with varied standards
-                                                                and business practices.</li>
-                                                            <li>As the junior project manager, was tasked with ensuring
-                                                                that up and running projects continued to run smoothly.
-                                                            </li>
-                                                            <li>Facilitated several project changes that were necessary
-                                                                during production. Planned the appropriate warehouse
-                                                                quantities, scheduled tool or equipment modifications,
-                                                                and executed changes without interruption to order
-                                                                fulfillment.</li>
-                                                            <li>Presented monthly status updates to management. This
-                                                                included project plans and timelines, quality reports,
-                                                                remaining resources and budget, and the status of any
-                                                                project changes.</li>
-                                                            <li>Organized and led a weekly meeting to review a standing
-                                                                issues list and production status.</li>
-                                                        </ul>
-                                                    </li>
-                                                    <li>
-                                                        Project Engineer
-                                                        <ul>
-                                                            <li>Maintained all quality and standards documentation to
-                                                                remain compliant to customer requirements.</li>
-                                                            <li>Maintained books of requirements and standards for
-                                                                quality compliance requirements which needed constant
-                                                                updating and maintenance.</li>
-                                                            <li>Provided day-to-day production support. Including tool
-                                                                issues and maintenance and vendor materials testing.
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <div class="accordion-header" id="jobHeadingSix">
-                                            <div class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseSix"
-                                                aria-expanded="false" aria-controls="collapseSix">
-                                                <div class="container">
-                                                    <div class="row">
-                                                        <div class="col-9">
-                                                            <strong>
-                                                                Jr. Quality Engineer Consultant
-                                                            </strong>
-                                                        </div>
-                                                        <div class="col-3">
-                                                            October 2004 - July 2005
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col">
-                                                            AILS Corporation
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div id="collapseSix" class="accordion-collapse collapse"
-                                            aria-labelledby="jobHeadingSix" data-bs-parent="#cvAccordion">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li>
-                                                        Jr. Quality Engineer Consultant: Roush Manufacturing
-                                                        <ul>
-                                                            <li>February 2005 - July 2005</li>
-                                                            <li>Engineering support of new process which required
-                                                                oversight and more data collection to confirm viability.
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li>
-                                                        Jr. Quality Engineer Consultant: Automotive glass manufacturing
-                                                        company
-                                                        <ul>
-                                                            <li>October 2004 - January 2004</li>
-                                                            <li>Quality data collection and processing.</li>
-                                                            <li>Daily report to management regarding the continuous
-                                                                process improvements implemented by the team.</li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <div class="accordion-header" id="jobHeadingSeven">
-                                            <div class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseSeven"
-                                                aria-expanded="false" aria-controls="collapseSeven">
-                                                <div class="container">
-                                                    <div class="row">
-                                                        <div class="col-9">
-                                                            <strong>
-                                                                Research Assistant
-                                                            </strong>
-                                                        </div>
-                                                        <div class="col-3">
-                                                            June 2002 - June 2004
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col">
-                                                            University of Michigan
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div id="collapseSeven" class="accordion-collapse collapse"
-                                            aria-labelledby="jobHeadingSeven" data-bs-parent="#cvAccordion">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li>
-                                                        Assisted research endeavors at the fluid cavitation research
-                                                        laboratory at the College of Engineering.
-                                                    </li>
-                                                    <li>
-                                                        Duties included performing experiments, data collection, device
-                                                        calibration, laboratory set-up and take-down, and general
-                                                        laboratory maintenance.
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="pb-4">
-                                    <h4>Education</h4>
-                                    <div class="accordion-item">
-                                        <div class="accordion-header" id="educationHeadingOne">
-                                            <div class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseEducationOne"
-                                                aria-expanded="false" aria-controls="collapseEducationOne">
-                                                <div class="container">
-                                                    <div class="row">
-                                                        <div class="col-9">
-                                                            <strong>
-                                                                Grand Circus Coding Academy
-                                                            </strong>
-                                                        </div>
-                                                        <div class="col-3">
-                                                            April - September 2019
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col">
-                                                            Certificate, C# .NET Bootcamp
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div id="collapseEducationOne" class="accordion-collapse collapse"
-                                                aria-labelledby="educationHeadingOne" data-bs-parent="#cvAccordion">
-                                                <div class="accordion-body">
-                                                    <ul>
-                                                        <li>
-                                                            Technology:
-                                                            <ul>
-                                                                <li>C#, Core</li>
-                                                                <li>SQL</li>
-                                                                <li>Entity</li>
-                                                                <li>Front End (HTML / CSS / JavaScript)</li>
-                                                                <li>Git/GitHub</li>
-                                                                <li>Object Oriented Programming</li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <div class="accordion-header" id="educationHeadingTwo">
-                                            <div class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseEducationTwo"
-                                                aria-expanded="false" aria-controls="collapseEducationTwo">
-                                                <div class="container">
-                                                    <div class="row">
-                                                        <div class="col-9">
-                                                            <strong>
-                                                                University of Michigan College of Engineering
-                                                            </strong>
-                                                        </div>
-                                                        <div class="col-3">
-                                                            1998 - 2003
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col">
-                                                            Master of Science - Mechanical Engineering (2003)
-                                                            <br>
-                                                            Bachelor of Science - Mechanical Engineering (2002)
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div id="collapseEducationTwo" class="accordion-collapse collapse"
-                                                aria-labelledby="educationHeadingTwo" data-bs-parent="#cvAccordion">
-                                                <div class="accordion-body">
-                                                    <ul>
-                                                        <li>
-                                                            Concentrated studies:
-                                                            <ul>
-                                                                <li>Thermodynamics</li>
-                                                                <li>Controls</li>
-                                                                <li>Engines</li>
-                                                            </ul>
-                                                        </li>
-                                                        <li>
-                                                            Related studies:
-                                                            <ul>
-                                                                <li>Design for Environment</li>
-                                                                <li>Design for Manufacturing</li>
-                                                                <li>Statistical Process Control</li>
-                                                                <li>Heat Transfer</li>
-                                                                <li>Fluid Dynamics</li>
-                                                                <li>Materials</li>
-                                                                <li>Statistics</li>
-                                                                <li>Dynamics and Vibration</li>
-                                                            </ul>
-                                                        </li>
-                                                        <li>
-                                                            Activities and societies:
-                                                            <ul>
-                                                                <li>Society of Automotive Engineers (SAE)</li>
-                                                                <li>Order of the Engineer</li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="pb-4">
-                                    <h4>Curios</h4>
-                                    <div class="accordion-item">
-                                        <div class="accordion-header" id="curiosHeadingOne">
-                                            <div class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseCurioOne"
-                                                aria-expanded="false" aria-controls="collapseCurioOne">
-                                                <div class="container">
-                                                    <div class="row">
-                                                        <div class="col-9">
-                                                            <strong>
-                                                                Author
-                                                            </strong>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div id="collapseCurioOne" class="accordion-collapse collapse"
-                                                aria-labelledby="curiosHeadingOne" data-bs-parent="#cvAccordion">
-                                                <div class="accordion-body">
-                                                    <ul>
-                                                        <li>
-                                                            Completed 400-page novel set in an original
-                                                            tech-fantasy world of magic and machinery.
-                                                        </li>
-                                                        <li>
-                                                            At least three sequels planned.
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <div class="accordion-header" id="curiosHeadingTwo">
-                                            <div class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseCurioTwo"
-                                                aria-expanded="false" aria-controls="collapseCurioTwo">
-                                                <div class="container">
-                                                    <div class="row">
-                                                        <div class="col-9">
-                                                            <strong>
-                                                                Entrepreneurship
-                                                            </strong>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div id="collapseCurioTwo" class="accordion-collapse collapse"
-                                                aria-labelledby="curiosHeadingOne" data-bs-parent="#cvAccordion">
-                                                <div class="accordion-body">
-                                                    <ul>
-                                                        <li>
-                                                            Subscription service with monthly product delivery.
-                                                            <ul>
-                                                                <li>
-                                                                    With a business partner, designed and developed a
-                                                                    business
-                                                                    which had a great opportunity in a growing market
-                                                                    where
-                                                                    no
-                                                                    strong competition existed.
-                                                                </li>
-                                                                <li>
-                                                                    With business partner, was involved in all aspects
-                                                                    of the business and decision-making. Individually
-                                                                    took the lead on process and product development.
-                                                                </li>
-                                                                <li>
-                                                                    Developed processes for procurement, production,
-                                                                    packaging, and freight of product on a regularly
-                                                                    scheduled basis.
-                                                                </li>
-                                                                <li>
-                                                                    Designed and crafted prototype samples using
-                                                                    business-owned equipment.
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                        <li>
-                                                            Craft Brewery Business
-                                                            <ul>
-                                                                <li>
-                                                                    As an individual project, designed and developed a
-                                                                    business plan for a light-industrial business which
-                                                                    would craft product for both on-site and wholesale
-                                                                    sales.
-                                                                </li>
-                                                                <li>
-                                                                    Refined the process for creating a
-                                                                    high quality product with a unique brand.
-                                                                </li>
-                                                                <li>
-                                                                    Designed and built the prototype factory where
-                                                                    product would be made.
-                                                                </li>
-                                                                <li>
-                                                                    The initial, prototype factory was designed to
-                                                                    scale as accurately as possible to a full-scale
-                                                                    production facility.
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+        <div
+          class="modal fade"
+          id="cvModal"
+          tabindex="-1"
+          aria-labelledby="cvModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="cvModalLabel">
+                  Hermann Ingi McEnhill
+                </h3>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <div class="accordion" id="cvAccordion">
+                  <div class="pt-2 pb-4">
+                    <h4>Experience</h4>
+                    <div class="accordion-item">
+                      <div class="accordion-header" id="jobHeadingRts">
+                        <div
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseRts"
+                          aria-expanded="false"
+                          aria-controls="collapseRts"
+                        >
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-9">
+                                <strong> Software Engineer </strong>
+                              </div>
+                              <div class="col-3">June 2022 - Present</div>
                             </div>
+                            <div class="row">
+                              <div class="col">RTS Labs</div>
+                            </div>
+                          </div>
                         </div>
-
-                        <div class="modal-footer">
-                            <a type="button" class="btn btn-primary"
-                                href="https://www.linkedin.com/in/hermann-mcenhill/" target="_blank">LinkedIn</a>
-                            <a type="button" class="btn btn-danger" href="https://github.com/hmcenhill"
-                                target="_blank">Github</a>
-                            <a type="button" class="btn btn-primary" href="Hermann_McEnhill_Resume.pdf"
-                                target="_blank">Open
-                                Resume as PDF</a>
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <div
+                          id="collapseRts"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="jobHeadingRts"
+                          data-bs-parent="#cvAccordion"
+                        >
+                          <div class="accordion-body">
+                            <ul>
+                              <li>
+                                Technology: Java Spring, PostgreSQL, React
+                                Native, AWS, Agile
+                              </li>
+                              <li>
+                                Primary Back End developer on a team supporting
+                                the launch of a novel product.
+                                <ul>
+                                  <li>
+                                    Using Agile methodology, the team
+                                    successfully made one major and one minor
+                                    release.
+                                  </li>
+                                  <li>
+                                    Delivered the product to a client with a
+                                    successful product launch.
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="collapse" id="myprojectsCollapse">
-                <div class="card card-body">
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                        <a type="button" class="btn btn-danger" href="https://github.com/hmcenhill/FlappyBox"                        target="_blank">Flappy Box (Unity)</a>
-                        <a type="button" class="btn btn-danger" href="https://github.com/hmcenhill/EscalatingMatch"                        target="_blank">Memory Match (Unity)</a>
                       </div>
+                    </div>
+                    <div class="accordion-item">
+                      <div class="accordion-header" id="jobHeadingRamshackle">
+                        <div
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseRamshackle"
+                          aria-expanded="false"
+                          aria-controls="collapseRamshackle"
+                        >
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-9">
+                                <strong> Co-Founder & Lead Programmer </strong>
+                              </div>
+                              <div class="col-3">October 2020 - March 2022</div>
+                            </div>
+                            <div class="row">
+                              <div class="col">
+                                Unnamed Video Game Studio Startup
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          id="collapseRamshackle"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="jobHeadingRamshackle"
+                          data-bs-parent="#cvAccordion"
+                        >
+                          <div class="accordion-body">
+                            <ul>
+                              <li>Technology: Unity 2020.3+, C#</li>
+                              <li>
+                                Responsible for core architecture and systems
+                                implementation and integration.
+                              </li>
+                              <li>One of a two-person team.</li>
+                              <li>Successfully funded by investors.</li>
+                              <li>
+                                Key Features:
+                                <ul>
+                                  <li>
+                                    Extensive inventory and crafting system.
+                                  </li>
+                                  <li>
+                                    Dynamic and responsive combat system with
+                                    detailed swordplay mechanics.
+                                  </li>
+                                  <li>
+                                    State-driven NPC AI which drove combat and
+                                    organic idle behavior.
+                                  </li>
+                                  <li>
+                                    Procedurally generated maze-like dungeons.
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <div class="accordion-header" id="jobHeadingTwo">
+                        <div
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseTwo"
+                          aria-expanded="false"
+                          aria-controls="collapseTwo"
+                        >
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-9">
+                                <strong> Associate Software Engineer </strong>
+                              </div>
+                              <div class="col-3">
+                                October 2019 - October 2020
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col">
+                                Rocket Mortgage (fka Quicken Loans)
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        id="collapseTwo"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="jobHeadingTwo"
+                        data-bs-parent="#cvAccordion"
+                      >
+                        <div class="accordion-body">
+                          <ul>
+                            <li>
+                              Technology: C# (.NET), JavaScript (Angular),
+                              Python
+                            </li>
+                            <li>
+                              Develop API functionality for the mortgage
+                              approval process. Serving up mortgage options and
+                              relevant approval requirements based on provided
+                              and historical client information.
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <div class="accordion-header" id="jobHeadingThree">
+                        <div
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseThree"
+                          aria-expanded="false"
+                          aria-controls="collapseThree"
+                        >
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-9">
+                                <strong>
+                                  Product Configuration Analyst / Material
+                                  Planner
+                                </strong>
+                              </div>
+                              <div class="col-3">
+                                December 2016 - October 2019
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col">Roush Industries</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        id="collapseThree"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="jobHeadingThree"
+                        data-bs-parent="#cvAccordion"
+                      >
+                        <div class="accordion-body">
+                          <ul>
+                            <li>
+                              Create and maintain production schedule including
+                              entering sales orders, forecasts, or direct
+                              production orders, as applicable using the
+                              PeopleSoft ERP system.
+                            </li>
+                            <li>
+                              Resolve material violations and release feasible
+                              production plans.
+                            </li>
+                            <li>
+                              Create production documents (PIDs) and follow
+                              through the production process.
+                            </li>
+                            <li>
+                              Analyze production process with Operations,
+                              Manufacturing Engineering, and other cross
+                              functional groups to optimize schedule and
+                              material flow.
+                            </li>
+                            <li>
+                              Participate / run production and Change Control
+                              [Order] (CCO) meetings, report on
+                              shortages/violations, other issues that impact the
+                              plan, work cross-functionally. to resolve and
+                              maintain the schedule and update staff about
+                              upcoming changes.
+                            </li>
+                            <li>
+                              Release or coordinate with purchasing to release
+                              material requisitions.
+                            </li>
+                            <li>
+                              Coordinate with purchasing to track material from
+                              supplier to shop floor.
+                            </li>
+                            <li>
+                              Effectively manage material and production
+                              requirement changes resulting from Engineering
+                              Change Notifications.
+                            </li>
+                            <li>
+                              Generate and distribute pick batches to supply
+                              production with materials.
+                            </li>
+                            <li>
+                              Identify potential shortages and work with
+                              appropriate departments to resolve.
+                            </li>
+                            <li>
+                              Work with all departments to coordinate and ensure
+                              efficient implementation and closure of all CCO’s.
+                            </li>
+                            <li>
+                              Manage running changes to maximize efficiency when
+                              exhausting products.
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <div
+                        class="accordion-header"
+                        id="collapseHeadingEntrepreneurship"
+                      >
+                        <div
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseEntrepreneurship"
+                          aria-expanded="false"
+                          aria-controls="collapseEntrepreneurship"
+                        >
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-9">
+                                <strong> Entrepreneurship </strong>
+                              </div>
+                              <div class="col-3">
+                                January 2011 - December 2016
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col">Self-Employed</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          id="collapseEntrepreneurship"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="collapseHeadingEntrepreneurship"
+                          data-bs-parent="#cvAccordion"
+                        >
+                          <div class="accordion-body">
+                            <ul>
+                              <li>
+                                Subscription service with monthly product
+                                delivery.
+                                <ul>
+                                  <li>
+                                    With a business partner, designed and
+                                    developed a business which had a great
+                                    opportunity in a growing market where no
+                                    strong competition existed.
+                                  </li>
+                                  <li>
+                                    With business partner, was involved in all
+                                    aspects of the business and decision-making.
+                                    Individually took the lead on process and
+                                    product development.
+                                  </li>
+                                  <li>
+                                    Developed processes for procurement,
+                                    production, packaging, and freight of
+                                    product on a regularly scheduled basis.
+                                  </li>
+                                  <li>
+                                    Designed and crafted prototype samples using
+                                    business-owned equipment.
+                                  </li>
+                                </ul>
+                              </li>
+                              <li>
+                                Craft Brewery Business
+                                <ul>
+                                  <li>
+                                    As an individual project, designed and
+                                    developed a business plan for a
+                                    light-industrial business which would craft
+                                    product for both on-site and wholesale
+                                    sales.
+                                  </li>
+                                  <li>
+                                    Refined the process for creating a high
+                                    quality product with a unique brand.
+                                  </li>
+                                  <li>
+                                    Designed and built the prototype factory
+                                    where product would be made.
+                                  </li>
+                                  <li>
+                                    The initial, prototype factory was designed
+                                    to scale as accurately as possible to a
+                                    full-scale production facility.
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <div class="accordion-header" id="jobHeadingFour">
+                        <div
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseFour"
+                          aria-expanded="false"
+                          aria-controls="collapseFour"
+                        >
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-9">
+                                <strong>
+                                  Functional Consultant / Functional Lead
+                                </strong>
+                              </div>
+                              <div class="col-3">
+                                October 2007 - December 2010
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col">SAP & Independent</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        id="collapseFour"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="jobHeadingFour"
+                        data-bs-parent="#cvAccordion"
+                      >
+                        <div class="accordion-body">
+                          <ul>
+                            <li>
+                              Technology: SAP-propietary Enterprise solution
+                            </li>
+                            <li>
+                              Certified in Sales and Distribution module (2008)
+                            </li>
+                            <li>
+                              Major Project: Functional lead - Houston-base
+                              Utilities Company
+                              <ul>
+                                <li>
+                                  Implemented the Sales and Distribution module
+                                  as part of a larger, enterprise software
+                                  upgrade.
+                                </li>
+                                <li>
+                                  Designed and configured the system for
+                                  subscription and discrete sales.
+                                </li>
+                                <li>
+                                  Regularly met with cross-functional team and
+                                  clients to review state of project.
+                                </li>
+                                <li>
+                                  Worked with the team to incorporate the new
+                                  functionality seamlessly into existing forms
+                                  and procedures.
+                                </li>
+                                <li>
+                                  Project completed successfully and ahead of
+                                  schedule.
+                                </li>
+                              </ul>
+                            </li>
+                            <li>
+                              Major Project: Functional Lead - Denver-based
+                              Utilities Company
+                              <ul>
+                                <li>
+                                  Implemented the Sales and Distribution module
+                                  as the functional lead and the Plant
+                                  Maintenance module as a functional consultant
+                                  team member.
+                                </li>
+                                <li>
+                                  Full life-cycle implementation including
+                                  client interviews for project scope and
+                                  requirements, complete configuration and
+                                  custom code description, and culminating in a
+                                  final, “big bang” legacy system shut down and
+                                  SAP “go-live”.
+                                </li>
+                                <li>
+                                  Trained client-side employees to manage,
+                                  maintain, and improve the installation going
+                                  forward.
+                                </li>
+                              </ul>
+                            </li>
+                            <li>
+                              Other short-term projects:
+                              <ul>
+                                <li>
+                                  Duration varied from a few days to a few
+                                  weeks.
+                                </li>
+                                <li>
+                                  Developed proposals. Met with clients to
+                                  collect requirements and determine time to
+                                  complete as part of the quotation process.
+                                </li>
+                                <li>
+                                  Support, troubleshooting, bug repairs and
+                                  client training.
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <div class="accordion-header" id="jobHeadingFive">
+                        <div
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseFive"
+                          aria-expanded="false"
+                          aria-controls="collapseFive"
+                        >
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-9">
+                                <strong>
+                                  Project Engineer / Project Coordinator
+                                </strong>
+                              </div>
+                              <div class="col-3">July 2005 - October 2007</div>
+                            </div>
+                            <div class="row">
+                              <div class="col">Roush Industries</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        id="collapseFive"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="jobHeadingFive"
+                        data-bs-parent="#cvAccordion"
+                      >
+                        <div class="accordion-body">
+                          <ul>
+                            <li>
+                              Project Coordinator
+                              <ul>
+                                <li>
+                                  Managed projects with a combined value of $6M.
+                                </li>
+                                <li>
+                                  Clients included familiar OEM companies based
+                                  out of the United States, Germany, and Japan
+                                  with varied standards and business practices.
+                                </li>
+                                <li>
+                                  As the junior project manager, was tasked with
+                                  ensuring that up and running projects
+                                  continued to run smoothly.
+                                </li>
+                                <li>
+                                  Facilitated several project changes that were
+                                  necessary during production. Planned the
+                                  appropriate warehouse quantities, scheduled
+                                  tool or equipment modifications, and executed
+                                  changes without interruption to order
+                                  fulfillment.
+                                </li>
+                                <li>
+                                  Presented monthly status updates to
+                                  management. This included project plans and
+                                  timelines, quality reports, remaining
+                                  resources and budget, and the status of any
+                                  project changes.
+                                </li>
+                                <li>
+                                  Organized and led a weekly meeting to review a
+                                  standing issues list and production status.
+                                </li>
+                              </ul>
+                            </li>
+                            <li>
+                              Project Engineer
+                              <ul>
+                                <li>
+                                  Maintained all quality and standards
+                                  documentation to remain compliant to customer
+                                  requirements.
+                                </li>
+                                <li>
+                                  Maintained books of requirements and standards
+                                  for quality compliance requirements which
+                                  needed constant updating and maintenance.
+                                </li>
+                                <li>
+                                  Provided day-to-day production support.
+                                  Including tool issues and maintenance and
+                                  vendor materials testing.
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <div class="accordion-header" id="jobHeadingSix">
+                        <div
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseSix"
+                          aria-expanded="false"
+                          aria-controls="collapseSix"
+                        >
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-9">
+                                <strong>
+                                  Jr. Quality Engineer Consultant
+                                </strong>
+                              </div>
+                              <div class="col-3">October 2004 - July 2005</div>
+                            </div>
+                            <div class="row">
+                              <div class="col">AILS Corporation</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        id="collapseSix"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="jobHeadingSix"
+                        data-bs-parent="#cvAccordion"
+                      >
+                        <div class="accordion-body">
+                          <ul>
+                            <li>
+                              Jr. Quality Engineer Consultant: Roush
+                              Manufacturing
+                              <ul>
+                                <li>February 2005 - July 2005</li>
+                                <li>
+                                  Engineering support of new process which
+                                  required oversight and more data collection to
+                                  confirm viability.
+                                </li>
+                              </ul>
+                            </li>
+                            <li>
+                              Jr. Quality Engineer Consultant: Automotive glass
+                              manufacturing company
+                              <ul>
+                                <li>October 2004 - January 2004</li>
+                                <li>Quality data collection and processing.</li>
+                                <li>
+                                  Daily report to management regarding the
+                                  continuous process improvements implemented by
+                                  the team.
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <div class="accordion-header" id="jobHeadingSeven">
+                        <div
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseSeven"
+                          aria-expanded="false"
+                          aria-controls="collapseSeven"
+                        >
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-9">
+                                <strong> Research Assistant </strong>
+                              </div>
+                              <div class="col-3">June 2002 - June 2004</div>
+                            </div>
+                            <div class="row">
+                              <div class="col">University of Michigan</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        id="collapseSeven"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="jobHeadingSeven"
+                        data-bs-parent="#cvAccordion"
+                      >
+                        <div class="accordion-body">
+                          <ul>
+                            <li>
+                              Assisted research endeavors at the fluid
+                              cavitation research laboratory at the College of
+                              Engineering.
+                            </li>
+                            <li>
+                              Duties included performing experiments, data
+                              collection, device calibration, laboratory set-up
+                              and take-down, and general laboratory maintenance.
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pb-4">
+                    <h4>Education</h4>
+                    <div class="accordion-item">
+                      <div class="accordion-header" id="educationHeadingOne">
+                        <div
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseEducationOne"
+                          aria-expanded="false"
+                          aria-controls="collapseEducationOne"
+                        >
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-9">
+                                <strong> Grand Circus Coding Academy </strong>
+                              </div>
+                              <div class="col-3">April - September 2019</div>
+                            </div>
+                            <div class="row">
+                              <div class="col">
+                                Certificate, C# .NET Bootcamp
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          id="collapseEducationOne"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="educationHeadingOne"
+                          data-bs-parent="#cvAccordion"
+                        >
+                          <div class="accordion-body">
+                            <ul>
+                              <li>
+                                Technology:
+                                <ul>
+                                  <li>C#, Core</li>
+                                  <li>SQL</li>
+                                  <li>Entity</li>
+                                  <li>Front End (HTML / CSS / JavaScript)</li>
+                                  <li>Git/GitHub</li>
+                                  <li>Object Oriented Programming</li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <div class="accordion-header" id="educationHeadingTwo">
+                        <div
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseEducationTwo"
+                          aria-expanded="false"
+                          aria-controls="collapseEducationTwo"
+                        >
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-9">
+                                <strong>
+                                  University of Michigan College of Engineering
+                                </strong>
+                              </div>
+                              <div class="col-3">1998 - 2003</div>
+                            </div>
+                            <div class="row">
+                              <div class="col">
+                                Master of Science - Mechanical Engineering
+                                (2003)
+                                <br />
+                                Bachelor of Science - Mechanical Engineering
+                                (2002)
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          id="collapseEducationTwo"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="educationHeadingTwo"
+                          data-bs-parent="#cvAccordion"
+                        >
+                          <div class="accordion-body">
+                            <ul>
+                              <li>
+                                Concentrated studies:
+                                <ul>
+                                  <li>Thermodynamics</li>
+                                  <li>Controls</li>
+                                  <li>Engines</li>
+                                </ul>
+                              </li>
+                              <li>
+                                Related studies:
+                                <ul>
+                                  <li>Design for Environment</li>
+                                  <li>Design for Manufacturing</li>
+                                  <li>Statistical Process Control</li>
+                                  <li>Heat Transfer</li>
+                                  <li>Fluid Dynamics</li>
+                                  <li>Materials</li>
+                                  <li>Statistics</li>
+                                  <li>Dynamics and Vibration</li>
+                                </ul>
+                              </li>
+                              <li>
+                                Activities and societies:
+                                <ul>
+                                  <li>Society of Automotive Engineers (SAE)</li>
+                                  <li>Order of the Engineer</li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pb-4">
+                    <h4>Curios</h4>
+                    <div class="accordion-item">
+                      <div class="accordion-header" id="accordionHeadingAuthor">
+                        <div
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseAuthor"
+                          aria-expanded="false"
+                          aria-controls="collapseAuthor"
+                        >
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-9">
+                                <strong> Author </strong>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          id="collapseAuthor"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="accordionHeadingAuthor"
+                          data-bs-parent="#cvAccordion"
+                        >
+                          <div class="accordion-body">
+                            <ul>
+                              <li>
+                                Completed 400-page novel set in an original
+                                tech-fantasy world of magic and machinery.
+                              </li>
+                              <ul>
+                                <li>At least three sequels planned.</li>
+                              </ul>
+                              <li>
+                                Outline set for cosmic horror novel set in a
+                                post-apocalyptic world.
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <div
+                        class="accordion-header"
+                        id="accordionHeadingMusician"
+                      >
+                        <div
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseMusician"
+                          aria-expanded="false"
+                          aria-controls="collapseMusician"
+                        >
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-9">
+                                <strong> Musician </strong>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          id="collapseMusician"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="accordionHeadingMusician"
+                          data-bs-parent="#cvAccordion"
+                        >
+                          <div class="accordion-body">
+                            <ul>
+                              <li>Piano</li>
+                              <li>Classically trained tenor</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
+
+              <div class="modal-footer">
+                <a
+                  type="button"
+                  class="btn btn-primary"
+                  href="https://www.linkedin.com/in/hermann-mcenhill/"
+                  target="_blank"
+                  >LinkedIn</a
+                >
+                <a
+                  type="button"
+                  class="btn btn-danger"
+                  href="https://github.com/hmcenhill"
+                  target="_blank"
+                  >Github</a
+                >
+                <a
+                  type="button"
+                  class="btn btn-primary"
+                  href="Hermann_McEnhill_Resume.pdf"
+                  target="_blank"
+                  >Open Resume as PDF</a
+                >
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
             </div>
+          </div>
+        </div>
 
+        <div class="collapse" id="myprojectsCollapse">
+          <div class="card card-body">
+            <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+              <a
+                type="button"
+                class="btn btn-danger"
+                href="https://github.com/hmcenhill/FlappyBox"
+                target="_blank"
+                >Flappy Box (Unity)</a
+              >
+              <a
+                type="button"
+                class="btn btn-danger"
+                href="https://github.com/hmcenhill/EscalatingMatch"
+                target="_blank"
+                >Memory Match (Unity)</a
+              >
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
 
-    </main>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-</body>
-
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
